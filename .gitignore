@@ -1,0 +1,57 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django-related
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# Development and environment files
+.env
+.vscode/
+.idea/
+
+# Static and media files (adjust paths as needed)
+/staticfiles/
+/media/
+
+# Dependency directories
+venv/
+env/
+node_modules/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# macOS related files
+.DS_Store
+
+# IDE-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Compiled C extensions
+*.so
+
+# Caches and databases
+__pycache__/
+*.sqlite3
+*.db
+
+# Secret keys
+*.secret_key
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+Pipfile
+
+# Coverage reports
+.coverage
